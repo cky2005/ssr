@@ -95,16 +95,21 @@ OSX上可使用GoAgentX的SSR插件。在你本地的 PC 或手机上使用图�
 
 
 [AEAD]:              https://github.com/onelogin/aead
-<del>[Android]:           https://github.com/shadowsocksr/shadowsocksr-android</del>
 [Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
-<del>[libsodium]:         https://github.com/breakwa11/shadowsocks-rss/wiki/libsodium</del>
-<del>[Linux python]:      https://github.com/shadowsocksr/shadowsocksr</del>
 [Linux Qt]:          https://github.com/librehat/shadowsocks-qt5
 [OpenWRT]:           https://github.com/shadowsocks/openwrt-shadowsocks
 [OS X]:              https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help
-<del>[Python]:            https://github.com/breakwa11/shadowsocks-rss/wiki/Python-client-setup-(Mult-language)</del>
 [ShadowsocksX-NG]:   https://github.com/yichengchen/ShadowsocksX-R
 [Shadowrocket]:      https://itunes.apple.com/us/app/shadowrocket/id932747118
+
 <del>[Windows]:           https://github.com/shadowsocksr/shadowsocksr-csharp</del>
+
+<del>[Android]:           https://github.com/shadowsocksr/shadowsocksr-android</del>
+
+<del>[Python]:            https://github.com/breakwa11/shadowsocks-rss/wiki/Python-client-setup-(Mult-language)</del>
+
+<del>[libsodium]:         https://github.com/breakwa11/shadowsocks-rss/wiki/libsodium</del>
+
+<del>[Linux python]:      https://github.com/shadowsocksr/shadowsocksr</del>
 
