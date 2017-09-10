@@ -15,8 +15,10 @@ apt-get install git
 ```
 
 ### 获取源代码 ###
-`git clone -b manyuser https://github.com/cky2005/ssr.git`
-`mv ssr/ /usr/local/shadowsocksr'
+```
+git clone -b manyuser https://github.com/cky2005/ssr.git
+mv ssr/ /usr/local/shadowsocksr
+```
 
 执行完毕后安装目录为/usr/local/shadowsocksr，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即/usr/local/shadowsocksr/shadowsocks)。
 

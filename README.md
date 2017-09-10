@@ -2,8 +2,8 @@
 ### 说明 ###
 不建议使用一键脚本安装，除非你自己能维护其功能，否则安装时若出了问题很难查，而且现在有不少不明来历的一键脚本内嵌后门程序。  
 此教程为单用户版，适合个人用户。如果你是站长，请查看多用户版教程：  
-[数据库多用户教程](https://github.com/cky2005/ssr/Server-Setup(manyuser-with-mysql))  
-[json版多用户教程](https://github.com/cky2005/ssr/Server-Setup(manyuser-with-mudbjson))（仅一台服务器适用）
+[数据库多用户教程](https://github.com/cky2005/ssr/blob/master/Server-Setup(manyuser-with-mysql).md)  
+[json版多用户教程](https://github.com/cky2005/ssr/blob/master/Server-Setup(manyuser-with-mudbjson).md)（仅一台服务器适用）
 
 基本库安装 
 -----
@@ -17,10 +17,11 @@ ubuntu/debian：
  
     apt-get install git
 
-获取源代码
------
-`git clone -b manyuser https://github.com/cky2005/ssr.git`
-'mv ssr/ /usr/local/shadowsocksr'
+#### 获取源代码
+```
+git clone -b manyuser https://github.com/cky2005/ssr.git
+mv ssr/ /usr/local/shadowsocksr
+```
 
 执行完毕后安装目录为/usr/local/shadowsocksr，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即/usr/local/shadowsocksr/shadowsocks)。
 
@@ -37,7 +38,7 @@ bash initcfg.sh
 cd /usr/local/shadowsocksr/shadowsocks
 ```
 
-####快速运行####
+#### 快速运行 ####
 ```
 python server.py -p 443 -k password -m aes-256-cfb -O auth_sha1_v4 -o http_simple
 
@@ -64,7 +65,7 @@ tail -f /var/log/shadowsocksr.log
 ----------------------------------
 
 ### 自启动 ###
-[System startup script](https://github.com/cky2005/ssr/System-startup-script)
+[System startup script](https://github.com/cky2005/ssr/blob/master/System-startup-script.md)
 
 客户端
 ------
