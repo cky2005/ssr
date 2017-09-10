@@ -91,9 +91,6 @@ OSX上可使用GoAgentX的SSR插件。在你本地的 PC 或手机上使用图�
 ### 其它异常 ###
 如果你的服务端python版本在2.6以下，那么必须更新python到2.6.x或2.7.x版本
 
-<del>其它参见 https://github.com/breakwa11/shadowsocks-rss/wiki/ulimit</del>
-
-
 [AEAD]:              https://github.com/onelogin/aead
 [Debian sid]:        https://packages.debian.org/unstable/python/shadowsocks
 [iOS]:               https://github.com/shadowsocks/shadowsocks-iOS/wiki/Help
@@ -102,6 +99,9 @@ OSX上可使用GoAgentX的SSR插件。在你本地的 PC 或手机上使用图�
 [OS X]:              https://github.com/shadowsocks/shadowsocks-iOS/wiki/Shadowsocks-for-OSX-Help
 [ShadowsocksX-NG]:   https://github.com/yichengchen/ShadowsocksX-R
 [Shadowrocket]:      https://itunes.apple.com/us/app/shadowrocket/id932747118
+
+
+<del>其它参见 https://github.com/breakwa11/shadowsocks-rss/wiki/ulimit</del>
 
 <del>[Windows]:           https://github.com/shadowsocksr/shadowsocksr-csharp</del>
 
