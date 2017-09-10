@@ -16,7 +16,7 @@ apt-get install git
 
 ### 获取源代码 ###
 ```
-git clone -b manyuser https://github.com/cky2005/ssr.git
+git clone -b master https://github.com/cky2005/ssr.git
 mv ssr/ /usr/local/shadowsocksr
 ```
 
